@@ -1,4 +1,3 @@
-main: "dist/index.js"
 name: "Hello World"
 description: "Greet someone and record the time"
 inputs:
@@ -11,4 +10,4 @@ outputs:
     description: "The time we greeted you"
 runs:
   using: "node12"
-  main: "index.js"
+  main: "dist/index.js"
